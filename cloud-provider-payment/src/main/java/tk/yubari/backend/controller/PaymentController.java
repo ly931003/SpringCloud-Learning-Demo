@@ -11,6 +11,7 @@ import tk.yubari.backend.entities.Payment;
 import tk.yubari.backend.service.IPaymentService;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @Slf4j
@@ -49,10 +50,18 @@ public class PaymentController {
     public String discovery() {
         discoveryClient.getServices().forEach(service -> {
             List<ServiceInstance> instances = discoveryClient.getInstances(service);
-            instances.forEach(serviceInstance -> {
-                log.info(serviceInstance.toString());
-            });
+            instances.forEach(serviceInstance -> log.info(serviceInstance.toString()));
         });
         return "ok";
+    }
+
+    @GetMapping("/payment/timeout")
+    public String feignTimeOut() {
+        try {
+            TimeUnit.SECONDS.sleep(3L);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
     }
 }
