@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-server" />
+        <module name="cloud-alibaba-provider-payment" />
         <module name="cloud-consumer-order-zk" />
         <module name="cloud-consumer-order-cs" />
         <module name="cloud-consumer-order-feign-hystrix" />
