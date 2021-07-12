@@ -10,6 +10,7 @@
         <module name="cloud-eureka-server" />
         <module name="cloud-consumer-order-zk" />
         <module name="cloud-consumer-order-cs" />
+        <module name="cloud-consumer-order-feign-hystrix" />
         <module name="cloud-common-api" />
         <module name="cloud-consumer-order" />
         <module name="cloud-provider-payment-cs" />

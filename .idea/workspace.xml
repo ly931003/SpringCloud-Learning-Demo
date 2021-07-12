@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1df84b-7da0-4d8a-a863-8c4e3662822e" name="Default Changelist" comment="add OpenFeign &amp; Hystrix" />
+    <list default="true" id="bb1df84b-7da0-4d8a-a863-8c4e3662822e" name="Default Changelist" comment="add idea config">
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-feign-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-feign-hystrix/src/main/java/tk/yubari/backend/OrderFeignHystrixMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-feign-hystrix/src/main/java/tk/yubari/backend/controller/OrderFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-feign-hystrix/src/main/java/tk/yubari/backend/service/FallbackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-feign-hystrix/src/main/java/tk/yubari/backend/service/PaymentFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-feign-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-hystrix/src/main/java/tk/yubari/backend/PaymentHystrixMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-hystrix/src/main/java/tk/yubari/backend/PaymentHystrixMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-hystrix/src/main/java/tk/yubari/backend/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-hystrix/src/main/java/tk/yubari/backend/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-hystrix/src/main/java/tk/yubari/backend/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-hystrix/src/main/java/tk/yubari/backend/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <list id="f08b12f9-c59b-4bb9-81af-5c17d6a538ed" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit d5a42880" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment-hystrix/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-order-feign-hystrix/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-consumer-order-feign-hystrix\src\main\resources" />
+      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-consumer-order-feign-hystrix\src\main\java\tk\yubari\backend" />
       <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-provider-payment-hystrix\src\main\resources" />
       <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-consumer-order-feign\src\main\resources" />
       <recent name="E:\Java\clouddemo\cloud-consumer-order-cs\src\main\resources" />
-      <recent name="E:\Java\clouddemo\cloud-consumer-order-cs\src\main\java" />
-      <recent name="E:\Java\clouddemo\cloud-provider-payment-cs\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tk.yubari.backend" />
@@ -80,18 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentHystrixMain">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OrderFeignHystrixMain">
     <configuration name="EurekaServerMain 7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.EurekaServerMain" />
@@ -147,6 +151,19 @@
     <configuration name="EurekaServerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.EurekaServerMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderFeignHystrixMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order-feign-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tk.yubari.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.OrderFeignHystrixMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,19 +225,6 @@
     <configuration name="PaymentHystrixMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment-hystrix" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.PaymentHystrixMain" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment-zk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tk.yubari.backend.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.PaymentMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -340,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderFeignHystrixMain" />
         <item itemvalue="Spring Boot.OrderFeignMain" />
         <item itemvalue="Spring Boot.PaymentMain8003" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
-        <item itemvalue="Spring Boot.PaymentMain" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +367,10 @@
       <workItem from="1624765572921" duration="906000" />
       <workItem from="1624780538087" duration="5822000" />
       <workItem from="1624888099583" duration="653000" />
-      <workItem from="1624888770886" duration="5264000" />
+      <workItem from="1624888770886" duration="5532000" />
+      <workItem from="1624924503738" duration="5213000" />
+      <workItem from="1625187981652" duration="4000" />
+      <workItem from="1625364585711" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="add config">
       <created>1624764482813</created>
@@ -386,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624894664492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add idea config">
+      <created>1624894903498</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624894903498</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +437,8 @@
     <MESSAGE value="add config" />
     <MESSAGE value="loadbalance" />
     <MESSAGE value="add OpenFeign &amp; Hystrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="add OpenFeign &amp; Hystrix" />
+    <MESSAGE value="add idea config" />
+    <option name="LAST_COMMIT_MESSAGE" value="add idea config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

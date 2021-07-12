@@ -20,6 +20,7 @@
         <module>cloud-consumer-order-cs</module>
         <module>cloud-consumer-order-feign</module>
         <module>cloud-provider-payment-hystrix</module>
+        <module>cloud-consumer-order-feign-hystrix</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

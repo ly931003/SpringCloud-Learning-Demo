@@ -28,4 +28,9 @@ public class PaymentController {
         return paymentService.paymentInfoTimeout(id);
     }
 
+    @GetMapping("/payment/hystrix/circuitBreaker/{id}")
+    public String hystrixCircuitBreaker(@PathVariable("id") Integer id) {
+        return paymentService.paymentCircuitBreaker(id);
+    }
+
 }
