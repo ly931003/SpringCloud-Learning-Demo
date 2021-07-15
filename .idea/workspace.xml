@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb1df84b-7da0-4d8a-a863-8c4e3662822e" name="Default Changelist" comment="add md">
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/java/tk/yubari/backend/PaymentMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/java/tk/yubari/backend/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/java/tk/yubari/backend/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/java/tk/yubari/backend/service/IPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/java/tk/yubari/backend/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+    <list default="true" id="bb1df84b-7da0-4d8a-a863-8c4e3662822e" name="Default Changelist" comment="add nacos">
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos/src/main/java/tk/yubari/backend/ConfigMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos/src/main/java/tk/yubari/backend/controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos/src/main/java/tk/yubari/backend/OrderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos/src/main/java/tk/yubari/backend/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos/src/main/java/tk/yubari/backend/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel/src/main/java/tk/yubari/backend/SentinelMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel/src/main/java/tk/yubari/backend/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel/src/main/java/tk/yubari/backend/controller/RateLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-alibaba-provider-payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +53,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1uSvQqXbVGMJmjh4MKY2lfIu86d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -64,24 +81,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-alibaba-provider-payment/src/main/java/tk/yubari/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-alibaba-sentinel/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-alibaba-sentinel\src\main\resources" />
+      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-alibaba-config-nacos\src\main\resources" />
+      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-alibaba-consumer-nacos\src\main\resources" />
+      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-alibaba-consumer-order\src\main\resources" />
       <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-alibaba-provider-payment\src\main\java\tk\yubari\backend" />
-      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-alibaba-provider-payment\src\main\resources" />
-      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-consumer-order-feign-hystrix\src\main\resources" />
-      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-consumer-order-feign-hystrix\src\main\java\tk\yubari\backend" />
-      <recent name="E:\Java\SpringCloud-Learning-Demo\cloud-provider-payment-hystrix\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tk.yubari.backend" />
       <recent name="tk.yubari.backend.controller" />
+      <recent name="tk.yubari.backend" />
       <recent name="tk.yubari.backend.entities" />
     </key>
   </component>
@@ -92,14 +109,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain Nacos 9001">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Spring Boot.SentinelMain">
+    <configuration name="ConfigMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-config-nacos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tk.yubari.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.ConfigMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,15 +195,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderFeignMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-order-feign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tk.yubari.backend.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.OrderFeignMain" />
+    <configuration name="OrderMain Nacos" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-consumer-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.OrderMain" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,36 +296,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloud-provider-payment-zk" />
+    <configuration name="PaymentMain (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.PaymentMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
-      <module name="cloud-provider-payment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tk.yubari.backend.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="PaymentMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment-zk" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.PaymentMain" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
-      <additionalParameters>
-        <param>
-          <option name="enabled" value="true" />
-          <option name="name" value="server.port" />
-          <option name="value" value="8003" />
-        </param>
-        <param>
-          <option name="enabled" value="true" />
-          <option name="name" value="eureka.instance.instance-id" />
-          <option name="value" value="PaymentMain8003" />
-        </param>
-      </additionalParameters>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -347,13 +342,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tk.yubari.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tk.yubari.backend.SentinelMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelMain" />
         <item itemvalue="Spring Boot.PaymentMain Nacos 9002" />
         <item itemvalue="Spring Boot.PaymentMain Nacos 9001" />
+        <item itemvalue="Spring Boot.ConfigMain" />
         <item itemvalue="Spring Boot.OrderFeignHystrixMain" />
-        <item itemvalue="Spring Boot.OrderFeignMain" />
-        <item itemvalue="Spring Boot.PaymentMain8003" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +384,10 @@
       <workItem from="1624924503738" duration="5213000" />
       <workItem from="1625187981652" duration="4000" />
       <workItem from="1625364585711" duration="105000" />
-      <workItem from="1626052597138" duration="1243000" />
+      <workItem from="1626052597138" duration="2311000" />
+      <workItem from="1626056353095" duration="8791000" />
+      <workItem from="1626140011432" duration="107000" />
+      <workItem from="1626243535530" duration="3873000" />
     </task>
     <task id="LOCAL-00001" summary="add config">
       <created>1624764482813</created>
@@ -420,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626052690258</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add nacos">
+      <created>1626055504758</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626055504758</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +477,19 @@
     <MESSAGE value="add OpenFeign &amp; Hystrix" />
     <MESSAGE value="add idea config" />
     <MESSAGE value="add md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add md" />
+    <MESSAGE value="add nacos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nacos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-alibaba-sentinel/src/main/java/tk/yubari/backend/controller/RateLimitController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

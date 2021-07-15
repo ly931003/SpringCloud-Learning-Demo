@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-consumer-order-nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8844
+
+
+
